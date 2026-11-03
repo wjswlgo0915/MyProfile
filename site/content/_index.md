@@ -1,7 +1,7 @@
 ---
 title: "LucentLink"
 # Profile settings
-profileImage: "images/img.jpg"        # path under static/
+profileImage: "망곰이.jpeg"        # path under static/
 name: "전지해"
 description: "전북대학교 컴퓨터인공지능학부 25학번"
 socials:
