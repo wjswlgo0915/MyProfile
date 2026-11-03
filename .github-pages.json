@@ -1,0 +1,13 @@
+{
+  "config": "hugo.toml,pages.json",
+  "theme": null,
+  "sample": ".",
+  "version": "0.154.5",
+  "slug": "lucentlink-hugo",
+  "npm": [],
+  "asset_build": [],
+  "generator": "3.1",
+  "repo": "https://github.com/wjswlgo0915/MyProfile.git",
+  "baseURL": "https://wjswlgo0915.github.io/MyProfile/",
+  "audited": false
+}
