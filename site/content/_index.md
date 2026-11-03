@@ -2,14 +2,12 @@
 title: "LucentLink"
 # Profile settings
 profileImage: "images/img.jpg"        # path under static/
-name: "cx48"
-description: "Security Analyst | Frontend Developer | Content Writer"
+name: "전지해"
+description: "전북대학교 컴퓨터인공지능학부 25학번"
 socials:
-  - url: "https://twitter.com/yourhandle"
-    icon: "fab fa-twitter"
-  - url: "https://instagram.com/yourhandle"
+  - url: "https://instagram.com/wjswlg0"
     icon: "fab fa-instagram"
-  - url: "https://github.com/you"
+  - url: "https://github.com/wjswlgo0915"
     icon: "fab fa-github"
   - url: "https://linkedin.com/in/yourhandle"
     icon: "fab fa-linkedin"
