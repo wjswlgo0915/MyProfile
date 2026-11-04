@@ -19,8 +19,7 @@ links:
     icon: "fas fa-globe"
     title: "Personal Website"
     description: "Check out my portfolio"
-
-    description: "Read my latest articles"
+    
   - href: "https://github.com/wjswlgo0915"
     icon: "fab fa-github"
     title: "GitHub"
