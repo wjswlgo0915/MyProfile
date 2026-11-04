@@ -19,19 +19,18 @@ links:
     icon: "fas fa-globe"
     title: "Personal Website"
     description: "Check out my portfolio"
-    
+
   - href: "https://github.com/wjswlgo0915"
     icon: "fab fa-github"
     title: "GitHub"
     description: "Explore my open-source projects"
-  
-    description: "Watch my tutorials"
+
   - href: "https://course.your.site"
     icon: "fas fa-book"
     title: "Online Course"
     description: "Learn web development"
 
-    description: "Support my work"
+  
   - href: "mailto:wjswlgo0915@naver.com"
     icon: "fas fa-envelope"
     title: "Contact Me"
