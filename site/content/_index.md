@@ -3,16 +3,13 @@ title: "LucentLink"
 # Profile settings
 profileImage: "images/망곰이.jpeg"        # path under static/
 name: "전지해"
-description: "전북대학교 컴퓨터인공지능학부 25학번"
+description: "전북대학교 컴퓨터인공지능학부 25학번."
 socials:
   - url: "https://instagram.com/wjswlg0"
     icon: "fab fa-instagram"
   - url: "https://github.com/wjswlgo0915"
     icon: "fab fa-github"
-  - url: "https://linkedin.com/in/yourhandle"
-    icon: "fab fa-linkedin"
-  - url: "https://youtube.com/yourchannel"
-    icon: "fab fa-youtube"
+ 
 
 # You can add as many links as you want!
 
@@ -22,27 +19,21 @@ links:
     icon: "fas fa-globe"
     title: "Personal Website"
     description: "Check out my portfolio"
-  - href: "https://blog.your.site"
-    icon: "fas fa-blog"
-    title: "My Blog"
+
     description: "Read my latest articles"
-  - href: "https://github.com/you"
+  - href: "https://github.com/wjswlgo0915"
     icon: "fab fa-github"
     title: "GitHub"
     description: "Explore my open-source projects"
-  - href: "https://youtube.com/yourchannel"
-    icon: "fab fa-youtube"
-    title: "YouTube Channel"
+  
     description: "Watch my tutorials"
   - href: "https://course.your.site"
     icon: "fas fa-book"
     title: "Online Course"
     description: "Learn web development"
-  - href: "https://buymeacoffee.com/you"
-    icon: "fas fa-coffee"
-    title: "Buy Me a Coffee"
+
     description: "Support my work"
-  - href: "mailto:you@example.com"
+  - href: "mailto:wjswlgo0915@naver.com"
     icon: "fas fa-envelope"
     title: "Contact Me"
     description: "For collaborations"
