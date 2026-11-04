@@ -3,7 +3,7 @@ title: "LucentLink"
 # Profile settings
 profileImage: "images/망곰이.jpeg"        # path under static/
 name: "전지해"
-description: "전북대학교 컴퓨터인공지능학부 25학번."
+description: "전북대학교 컴퓨터인공지능학부 25학번"
 socials:
   - url: "https://instagram.com/wjswlg0"
     icon: "fab fa-instagram"
