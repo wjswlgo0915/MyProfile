@@ -1,11 +1,12 @@
+@import url('https://cdn.jsdelivr.net/gh/kingyong9169/NanumSquareRound/NanumSquareRound.css');
 :root {
-  --bg-color: #1a1a2e;
-  --text-color: rgba(255, 255, 255, 0.85);
-  --icon-color: rgba(255, 255, 255, 0.7);
+  --bg-color: #FFF9F5;
+  --text-color: #493C41;
+  --icon-color: #A66A77;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nanum Square Round', 'Malgun Gothic', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   min-height: 100vh;
@@ -28,19 +29,24 @@ body {
   border-color: rgba(255, 255, 255, 0.4);
 }
 
+
 .link-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: #F7E3DF;
   backdrop-filter: blur(10px);
   border-radius: 12px;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #E8C8C5;
+  color: #493C41;
 }
+
+
 
 .link-card:hover {
   transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #F1D5D0;
+  box-shadow: 0 10px 20px rgba(166, 106, 119, 0.15);
 }
+
 
 .icon {
   color: var(--icon-color);
