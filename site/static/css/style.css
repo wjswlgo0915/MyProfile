@@ -68,12 +68,19 @@ body {
   overflow: hidden;
 }
 
+
 .circle {
   position: absolute;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(
+    circle,
+    rgba(217, 154, 165, 0.40) 0%,
+    rgba(217, 154, 165, 0.15) 40%,
+    rgba(217, 154, 165, 0) 70%
+  );
   animation: float 15s infinite linear;
 }
+
 
 @keyframes float {
   0% {
