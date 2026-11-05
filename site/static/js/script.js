@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateColors() {
-        document.documentElement.style.setProperty('--text-color', 'rgba(255, 255, 255, 0.85)');
-        document.documentElement.style.setProperty('--icon-color', 'rgba(255, 255, 255, 0.7)');
+      document.documentElement.style.setProperty('--text-color', '#493C41');
+      document.documentElement.style.setProperty('--icon-color', '#A66A77');
     }
     updateColors();
 });

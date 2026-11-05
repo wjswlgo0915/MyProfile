@@ -238,4 +238,22 @@ p {
 .about-section .text-white {
   color: #493C41 !important;
 }
+/* About Me 반투명 카드 */
+#about {
+  background: rgba(247, 227, 223, 0.65);
+  backdrop-filter: blur(10px);
+  border: 1px solid #E8C8C5;
+  border-radius: 20px;
+  padding: 30px;
+  color: #493C41;
+}
 
+/* About Me 제목과 설명 */
+#about h2,
+#about h3 {
+  color: #A66A77 !important;
+}
+
+#about p {
+  color: #493C41 !important;
+}
