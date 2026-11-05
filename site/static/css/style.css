@@ -26,7 +26,7 @@ body {
 
 .profile-pic:hover {
   transform: scale(1.05);
-  border-color: rgba(255, 255, 255, 0.4);
+  border-color: #A66A77;
 }
 
 
@@ -55,7 +55,7 @@ body {
 
 .link-card:hover .icon {
   transform: scale(1.1);
-  color: rgba(255, 255, 255, 0.9);
+  color: #A66A77;
 }
 
 .bg-animation {
@@ -166,3 +166,69 @@ body {
     clip-path: inset(0 100% 0 0); /* back to hidden */
   }
 }
+
+/* Cream Peach - Text Color Fix */
+
+/* 이름과 자기소개 */
+.profile-name,
+.profile-description,
+h1, h2, h3,
+p {
+  color: #493C41 !important;
+}
+
+/* 기존 흰색 글씨 수정 */
+.text-white,
+.text-gray-200,
+.text-gray-300 {
+  color: #493C41 !important;
+}
+
+/* SNS 아이콘 */
+.social-icons a,
+.social-icons i {
+  color: #A66A77 !important;
+}
+
+/* 링크 카드 아이콘 */
+.link-card i {
+  color: #A66A77;
+}
+
+/* 링크 카드 글씨 */
+.link-card,
+.link-card h3,
+.link-card p {
+  color: #493C41;
+}
+
+/* About Me - Cream Peach Colors */
+
+/* About Me 영역 */
+#about,
+.about-section {
+  color: #493C41 !important;
+}
+
+/* 제목 */
+#about h1,
+#about h2,
+#about h3,
+.about-section h1,
+.about-section h2,
+.about-section h3 {
+  color: #493C41 !important;
+}
+
+/* 본문 */
+#about p,
+.about-section p {
+  color: #795D64 !important;
+}
+
+/* About Me 내부의 기존 흰색 글씨 */
+#about .text-white,
+.about-section .text-white {
+  color: #493C41 !important;
+}
+
