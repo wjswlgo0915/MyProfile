@@ -1,7 +1,7 @@
 ---
 title: "LucentLink"
 # Profile settings
-profileImage: "images/망곰이.jpeg"        # path under static/
+profileImage: "images/profile.jpg"        # path under static/
 name: "전지해"
 description: "전북대학교 컴퓨터인공지능학부 25학번"
 socials:
@@ -45,17 +45,20 @@ links:
 
 # About section (optional section)
 
+
 about:
   title: "About Me"
   sections:
-     - heading: "Introduction"
-       content: "안녕하세요! 전북대학교 컴퓨터인공지능학부 대학생입다."
-     - heading: "Skills"
-       content: "Python으로 자료구조와 알고리즘을 학습하고 있으며, Git과 GitHub를 이용한 버전 관리 및 웹사이트 배포를 경험했습니다."
+    - heading: "Introduction"
+      content: "안녕하세요! 전북대학교 컴퓨터인공지능학부에 재학 중인 전지해입니다. 새로운 것을 배우고 다양한 경험을 쌓으며 저만의 가능성을 넓혀가고 있습니다."
 
-     - heading: "Projects"
-       content: "2026년 10월 TMDB 영화 정보 웹사이트 제작 실습을 진행했습니다. GitHub Pages를 활용하여 사이트를 배포하고 웹서비스 구성과 배포 과정을 학습했습니다."
+    - heading: "Interests"
+      content: "인공지능과 웹 개발에 관심이 있습니다. 특히 아이디어가 실제 서비스로 구현되고, 사람들이 편리하게 사용할 수 있는 결과물로 이어진다는 점이 매력적으로 느껴집니다."
 
-     - heading: "Goals"
-       content: "앞으로 HTML, CSS, JavaScript를 더 깊이 학습하고 직접 제작한 웹사이트의 기능과 디자인을 개선하고 싶습니다."
+    - heading: "Values"
+      content: "아직 배워가는 과정에 있지만, 모르는 것을 하나씩 이해하고 직접 시도하며 성장하는 것을 중요하게 생각합니다. 새로운 도전을 통해 배움의 폭을 넓혀가고 싶습니다."
+
+    - heading: "Goals"
+      content: "앞으로 웹 개발의 기초를 탄탄히 다지고 인공지능에 대한 이해를 넓히고 싶습니다. 작은 아이디어부터 직접 구현해 보며 실무에 활용할 수 있는 역량을 키워가는 것이 목표입니다."
+
 ---
