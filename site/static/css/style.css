@@ -30,14 +30,17 @@ body {
 }
 
 
+
 .link-card {
-  background: #F7E3DF;
+  background: rgba(247, 227, 223, 0.65);
   backdrop-filter: blur(10px);
-  border-radius: 12px;
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
   transition: all 0.3s ease;
   border: 1px solid #E8C8C5;
   color: #493C41;
 }
+
 
 
 
@@ -244,18 +247,22 @@ p {
 }
 
 /* About Me - Compact Cream Peach Card */
+
 #about {
   background: rgba(247, 227, 223, 0.65);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid #E8C8C5;
   border-radius: 20px;
 
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 
   box-shadow: 0 4px 12px rgba(166, 106, 119, 0.08);
   color: #493C41;
 }
+
 /* About Me 안쪽 중복 박스 정리 */
 #about > div {
   background: transparent !important;
