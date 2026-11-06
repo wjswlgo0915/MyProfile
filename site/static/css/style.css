@@ -310,3 +310,13 @@ p {
   border-top: 1px solid #E8C8C5;
   margin: 24px 0;
 }
+
+/* 링크 카드와 About Me 색상 통일 */
+.link-card,
+#about {
+  background: rgba(247, 227, 223, 0.65) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #E8C8C5;
+}
+
