@@ -69,48 +69,34 @@ body {
 }
 
 
+
+/* Floating Heart Background */
 .circle {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+
   background: rgba(217, 154, 165, 0.35);
-  transform: rotate(-45deg);
+
+  border-radius: 0;
+
+  clip-path: path("M 17.5 32 C 12 27 0 18 0 10 C 0 0 12 -2 17.5 8 C 23 -2 35 0 35 10 C 35 18 23 27 17.5 32 Z");
+
   animation: float 15s infinite linear;
-  opacity: 0.8;
-}
-
-.circle::before,
-.circle::after {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background: rgba(217, 154, 165, 0.35);
-  border-radius: 50%;
-}
-
-.circle::before {
-  top: -15px;
-  left: 0;
-}
-
-.circle::after {
-  top: 0;
-  left: 15px;
 }
 
 
 @keyframes float {
   0% {
-    transform: translateY(0) rotate(-45deg) scale(1);
-    opacity: 0.8;
+    transform: translateY(0);
+    opacity: 0.7;
   }
+
   100% {
-    transform: translateY(-1000px) rotate(-45deg) scale(1.2);
+    transform: translateY(-1000px);
     opacity: 0;
   }
 }
-
 .info-box {
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
