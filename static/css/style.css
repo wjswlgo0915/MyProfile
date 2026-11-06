@@ -216,4 +216,14 @@ body {
   box-shadow: 0 4px 12px rgba(166, 106, 119, 0.08);
 }
 
+/* My Activities 활동별 큰 제목 */
+.activities-card .activity-content h2 {
+  color: #A66A77 !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
 
