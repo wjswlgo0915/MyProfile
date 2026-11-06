@@ -1,56 +1,93 @@
----
-title: "LucentLink"
-# Profile settings
-profileImage: "images/profile.jpg"        # path under static/
-name: "전지해"
-description: "전북대학교 컴퓨터인공지능학부 25학번"
-socials:
-  - url: "https://instagram.com/wjswlg0"
-    icon: "fab fa-instagram"
-  - url: "https://github.com/wjswlgo0915"
-    icon: "fab fa-github"
- 
-
-# You can add as many links as you want!
-
-# Link cards
-links:
-  - href: "activities/"
-    icon: "fas fa-book-open"
-    title: "My Activities"
-    description: "수업 실습과 교내 활동"
-
-  - href: "https://github.com/wjswlgo0915"
-    icon: "fab fa-github"
-    title: "GitHub"
-    description: "Explore my open-source projects"
-
-
-  
-  - href: "mailto:wjswlgo0915@naver.com"
-    icon: "fas fa-envelope"
-    title: "Contact Me"
-    description: "wjswlgo0915@naver.com"
-
- 
-
-
-# About section (optional section)
-
-
-about:
-  title: "About Me"
-  sections:
-    - heading: "Introduction"
-      content: "안녕하세요! 전북대학교 컴퓨터인공지능학부에 재학 중인 전지해입니다. 새로운 것을 배우고 다양한 경험을 쌓으며 저만의 가능성을 넓혀가고 있습니다."
-
-    - heading: "Interests"
-      content: "인공지능과 웹 개발에 관심이 있습니다. 특히 아이디어가 실제 서비스로 구현되고, 사람들이 편리하게 사용할 수 있는 결과물로 이어진다는 점이 매력적으로 느껴집니다."
-
-    - heading: "Values"
-      content: "아직 배워가는 과정에 있지만, 모르는 것을 하나씩 이해하고 직접 시도하며 성장하는 것을 중요하게 생각합니다. 새로운 도전을 통해 배움의 폭을 넓혀가고 싶습니다."
-
-    - heading: "Goals"
-      content: "앞으로 웹 개발의 기초를 탄탄히 다지고 인공지능에 대한 이해를 넓히고 싶습니다. 작은 아이디어부터 직접 구현해 보며 실무에 활용할 수 있는 역량을 키워가는 것이 목표입니다."
 
 ---
+title: "My Activities"
+---
+
+## 01. TA 세션 HTML/CSS 웹페이지 수정 실습
+
+**활동 구분:** 초급프로젝트 TA 세션
+
+**진행 날짜:** 2026년 9월 17일
+
+**진행 상태:** 실습 완료
+
+### 활동 목적
+
+TA 세션에서 제공된 HTML/CSS 예제 파일을 직접 수정하면서 웹페이지의 구조와 이미지 스타일을 이해하는 것을 목표로 했습니다.
+
+### 사용 기술
+
+- HTML: 웹페이지에 표시되는 이미지 파일 경로 수정
+- CSS: 이미지의 너비와 높이를 조절하는 속성 학습
+
+
+### 담당 역할 및 수행 과정
+
+TA 세션에서 제공된 기존 `test.html` 파일을 바탕으로 자기소개 웹페이지 수정 실습을 진행했습니다.
+
+1. HTML 코드를 수정하여 프로필 사진을 변경했습니다.
+2. CSS와 미디어 쿼리(Media Query)를 활용해 화면 크기에 따라 요소의 배치가 달라지는 반응형 디자인을 실습했습니다.
+3. 브라우저 창의 크기를 변경하면서 프로필과 취미 목록이 화면 너비에 맞게 재배치되는 것을 확인했습니다.
+
+화면 너비가 500px 이하일 때 요소들이 세로로 배치되도록 하여, 좁은 화면에서도 내용을 쉽게 확인할 수 있도록 했습니다.
+
+### 실습 결과
+
+제공된 HTML/CSS 예제 파일을 수정하여 프로필 사진 변경과 반응형 화면 배치가 적용된 자기소개 웹페이지를 완성했습니다.
+
+[TA 세션 웹페이지 결과물 보기](/MyProfile/ta-session/test.html)
+
+### 배운 점 및 개선 방향
+
+이번 실습을 통해 CSS의 미디어 쿼리를 이용하면 화면 크기에 따라 웹페이지의 배치를 변경할 수 있다는 점을 배웠습니다.
+
+앞으로는 다양한 화면 크기를 고려한 반응형 웹 디자인을 직접 구현하고, 사용자에게 편리한 웹페이지를 제작하는 연습을 하고 싶습니다.
+
+
+
+---
+
+## 02. 학생회 홍보 콘텐츠 제작
+
+### 중간고사 간식사업 홍보물 디자인
+
+**소속:** 학생회 홍보국
+
+**제작 날짜:** 2026년 3월 28일
+
+**진행 상태:** 제작 완료
+
+**사용 도구:** Figma
+
+### 활동 목적
+
+학생들에게 중간고사 간식사업에 관한 정보를 효과적으로 전달하기 위한 인스타그램 홍보물을 제작했습니다.
+
+### 담당 역할
+
+학생회에서 전달받은 정리된 홍보 내용을 바탕으로 Figma를 활용해 인스타그램 게시물의 디자인 작업을 담당했습니다.
+
+홍보 내용의 기획과 인스타그램 게시 작업은 담당하지 않았습니다.
+
+### 제작 과정
+
+1. 전달받은 홍보 내용을 확인했습니다.
+2. Figma를 활용해 홍보물 디자인 작업을 진행했습니다.
+3. 기본적인 디자인 기능을 사용하여 홍보 내용을 시각적으로 구성했습니다.
+4. 완성된 홍보물 디자인을 결과물로 제작했습니다.
+
+### 활동 결과
+
+중간고사 간식사업 홍보물을 제작했으며, 해당 결과물은 학생회 인스타그램 게시물에서 확인할 수 있습니다.
+
+![중간고사 간식사업 홍보물](/MyProfile/images/중간고사간식사업.png)
+
+[인스타그램 원본 게시물 보기](https://www.instagram.com/p/DWk64dbgf0i/)
+
+### 배운 점 및 개선 방향
+
+이번 활동은 Figma를 활용해 홍보물을 제작한 첫 경험이었습니다.
+
+처음 사용하는 도구였기 때문에 기본적인 기능을 중심으로 작업했고, 디자인의 완성도를 충분히 높이지 못했다는 아쉬움이 남았습니다.
+
+Figma의 다양한 기능을 학습하고, 레이아웃과 시각적 요소를 더욱 세심하게 구성하여 완성도 높은 홍보물을 제작하고 싶습니다.

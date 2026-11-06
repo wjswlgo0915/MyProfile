@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: sans-serif; margin: 16px; background: #eeeeee }
+
+
+
+  .card {
+    width: 600px;
+    max-width: 100%;
+    margin: 30px auto;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 30px;
+  }
+
+  .profile {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .profile img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .hobbies {
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    list-style: none;
+    margin-top: 16px;
+  }
+
+  .hobbies li {
+    flex: 1;
+    padding: 12px 20px;
+    background: #eee;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .hobbies li:active {
+    transform: scale(0.95);
+    background: #ddd;
+
+
+  }
+
+  @media (max-width: 500px) {
+    .profile {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hobbies {
+      flex-direction: column;
+    }
+  }
+
+
+  </style>
+</head>
+<body>
+  <div class="card">
+  <div class="profile">
+    <img src="망곰이.jpeg" alt="프로필 사진">
+    <div>
+      <h1>전지해</h1>
+      <p>망곰이♡ 치이카와♡</p>
+    </div>
+  </div>
+  <ul class="hobbies">
+    <li>플레이리스트</li><li>산책</li><li>사진</li><li>여행</li><li>관련사이트</li>
+  </ul>
+  </div>
+</body>
+</html>
