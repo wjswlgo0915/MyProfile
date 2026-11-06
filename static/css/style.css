@@ -1,11 +1,13 @@
+@import url('https://cdn.jsdelivr.net/gh/kingyong9169/NanumSquareRound/NanumSquareRound.css');
 :root {
-  --bg-color: #1a1a2e;
-  --text-color: rgba(255, 255, 255, 0.85);
-  --icon-color: rgba(255, 255, 255, 0.7);
+  --bg-color: #FFF9F5;
+  --text-color: #493C41;
+  --icon-color: #A66A77;
 }
 
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nanum Square Round', 'Malgun Gothic', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   min-height: 100vh;
@@ -161,47 +163,54 @@ body {
   }
 }
 
-/* My Activities 소제목 강조 */
+
+/* My Activities 결과물 링크 버튼 */
+.activity-content a {
+  display: inline-block;
+  background: #E8C8C5;
+  color: #493C41 !important;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none !important;
+  margin: 10px 0 20px;
+  transition: all 0.3s ease;
+}
+
+/* 마우스를 올렸을 때 */
+.activity-content a:hover {
+  background: #D9AAB1;
+  transform: translateY(-2px);
+}
+
+/* 키보드로 선택했을 때 */
+.activity-content a:focus-visible {
+  outline: 3px solid #A66A77;
+  outline-offset: 3px;
+}
+
+/* My Activities 소제목 */
 .activity-content h3 {
   color: #A66A77 !important;
   font-size: 21px;
   font-weight: 700;
   margin-top: 30px;
   margin-bottom: 12px;
-  line-height: 1.5;
 }
 
-/* 활동 소개 본문 */
-.activity-content p,
-.activity-content li {
-  color: #493C41;
-  font-size: 16px;
-  line-height: 1.8;
+
+/* 링크 카드와 About Me 반투명 디자인 통일 */
+.link-card,
+#about {
+  background: rgba(247, 227, 223, 0.65) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid #E8C8C5 !important;
+  border-radius: 20px !important;
+
+  box-shadow: 0 4px 12px rgba(166, 106, 119, 0.08);
 }
 
-/* 결과물 보기 버튼 */
-.activity-result-button {
-  display: inline-block;
-  background: #E8C8C5;
-  color: #493C41 !important;
-  font-size: 15px;
-  font-weight: 700;
-  padding: 12px 20px;
-  border-radius: 12px;
-  text-decoration: none !important;
-  margin-top: 12px;
-  margin-bottom: 20px;
-  transition: all 0.3s ease;
-}
 
-/* 마우스를 올렸을 때 */
-.activity-result-button:hover {
-  background: #D9AAB1;
-  transform: translateY(-2px);
-}
-
-/* 키보드로 선택했을 때 */
-.activity-result-button:focus-visible {
-  outline: 3px solid #A66A77;
-  outline-offset: 3px;
-}
