@@ -320,3 +320,44 @@ p {
   border: 1px solid #E8C8C5;
 }
 
+/* My Activities 큰 제목 */
+.activities-card .activity-content h2 {
+  color: #A66A77 !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  margin: 35px 0 20px !important;
+}
+
+/* 활동 목적, 사용 기술, 실습 결과 등 */
+.activities-card .activity-content h3 {
+  color: #A66A77 !important;
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  margin-top: 30px !important;
+  margin-bottom: 12px !important;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E8C8C5;
+}
+
+/* 활동 결과물 링크 버튼 */
+.activity-content a {
+  display: inline-block;
+  background: #E8C8C5;
+  color: #493C41 !important;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none !important;
+  margin: 10px 0 20px;
+}
+
+.activity-content a:hover {
+  background: #D9AAB1;
+}
+
+.activity-content a:focus-visible {
+  outline: 3px solid #A66A77;
+  outline-offset: 3px;
+}
+
