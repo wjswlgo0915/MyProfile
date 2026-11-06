@@ -35,7 +35,14 @@ TA 세션에서 제공된 기존 `test.html` 파일을 바탕으로 자기소개
 
 프로필 사진을 변경하고, 브라우저 너비가 500px 이하일 때 프로필과 취미 목록이 세로로 배치되는 반응형 웹페이지의 동작을 확인했습니다.
 
-[TA 세션 웹페이지 결과물 보기](/MyProfile/ta-session/test.html)
+<a
+  href="/MyProfile/ta-session/test.html"
+  class="activity-result-button"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  TA 세션 결과물 보기 ↗
+</a>
 
 ### 배운 점 및 개선 방향
 
@@ -59,9 +66,22 @@ TA 세션에서 제공된 기존 `test.html` 파일을 바탕으로 자기소개
 
 홍보물의 디자인을 담당했으며, 인스타그램 게시 작업은 담당하지 않았습니다.
 
-### 활동 결과물
 
-![중간고사 간식사업 홍보물](/MyProfile/images/중간고사간식사업.png)
+<h3 class="activity-result-title">활동 결과물</h3>
 
-[인스타그램 원본 게시물 보기](https://www.instagram.com/p/DWk64dbgf0i/)
+<img
+  src="/MyProfile/images/중간고사간식사업.png"
+  alt="중간고사 간식사업 홍보물"
+  class="activity-result-image"
+>
+
+<a
+  href="https://www.instagram.com/p/DWk64dbgf0i/"
+  class="instagram-button"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  인스타그램 원본 게시물 보기 ↗
+</a>
+
 

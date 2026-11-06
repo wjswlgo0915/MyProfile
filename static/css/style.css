@@ -160,3 +160,48 @@ body {
     clip-path: inset(0 100% 0 0); /* back to hidden */
   }
 }
+
+/* My Activities 소제목 강조 */
+.activity-content h3 {
+  color: #A66A77 !important;
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* 활동 소개 본문 */
+.activity-content p,
+.activity-content li {
+  color: #493C41;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* 결과물 보기 버튼 */
+.activity-result-button {
+  display: inline-block;
+  background: #E8C8C5;
+  color: #493C41 !important;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none !important;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+/* 마우스를 올렸을 때 */
+.activity-result-button:hover {
+  background: #D9AAB1;
+  transform: translateY(-2px);
+}
+
+/* 키보드로 선택했을 때 */
+.activity-result-button:focus-visible {
+  outline: 3px solid #A66A77;
+  outline-offset: 3px;
+}
