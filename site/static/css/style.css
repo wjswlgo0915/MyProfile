@@ -242,15 +242,28 @@ p {
 .about-section .text-white {
   color: #493C41 !important;
 }
-/* About Me 반투명 카드 */
+
+/* About Me - Compact Cream Peach Card */
 #about {
   background: rgba(247, 227, 223, 0.65);
   backdrop-filter: blur(10px);
   border: 1px solid #E8C8C5;
   border-radius: 20px;
-  padding: 30px;
+
+  padding: 20px;
+  margin-top: 20px;
+
+  box-shadow: 0 4px 12px rgba(166, 106, 119, 0.08);
   color: #493C41;
 }
+/* About Me 안쪽 중복 박스 정리 */
+#about > div {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
 
 /* About Me 제목과 설명 */
 #about h2,
