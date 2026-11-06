@@ -190,13 +190,16 @@ body {
   outline-offset: 3px;
 }
 
-/* My Activities 소제목 */
-.activity-content h3 {
+/* My Activities 소제목 강조 */
+.activities-card .activity-content h3 {
   color: #A66A77 !important;
-  font-size: 21px;
-  font-weight: 700;
+  font-size: 21px !important;
+  font-weight: 700 !important;
   margin-top: 30px;
   margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E8C8C5;
+  line-height: 1.5;
 }
 
 
