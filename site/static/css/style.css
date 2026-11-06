@@ -71,9 +71,9 @@ body {
 
 .circle {
   position: absolute;
-  width: 24px;
-  height: 24px;
-  background: rgba(217, 154, 165, 0.45);
+  width: 30px;
+  height: 30px;
+  background: rgba(217, 154, 165, 0.35);
   transform: rotate(-45deg);
   animation: float 15s infinite linear;
   opacity: 0.8;
@@ -83,30 +83,30 @@ body {
 .circle::after {
   content: "";
   position: absolute;
-  width: 24px;
-  height: 24px;
-  background: rgba(217, 154, 165, 0.45);
+  width: 30px;
+  height: 30px;
+  background: rgba(217, 154, 165, 0.35);
   border-radius: 50%;
 }
 
 .circle::before {
-  top: -12px;
+  top: -15px;
   left: 0;
 }
 
 .circle::after {
   top: 0;
-  left: 12px;
+  left: 15px;
 }
 
 
 @keyframes float {
   0% {
-    transform: translateY(0) rotate(-45deg);
+    transform: translateY(0) rotate(-45deg) scale(1);
     opacity: 0.8;
   }
   100% {
-    transform: translateY(-1000px) rotate(315deg);
+    transform: translateY(-1000px) rotate(-45deg) scale(1.2);
     opacity: 0;
   }
 }
