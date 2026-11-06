@@ -281,3 +281,32 @@ p {
 #about p {
   color: #493C41 !important;
 }
+
+/* 활동 페이지 디자인 */
+.activities-card {
+  background: rgba(247, 227, 223, 0.65);
+  backdrop-filter: blur(10px);
+  border: 1px solid #E8C8C5;
+  border-radius: 20px;
+  padding: 24px;
+  color: #493C41;
+}
+
+.activity-content h2 {
+  color: #A66A77;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 24px 0 12px;
+}
+
+.activity-content p {
+  color: #493C41;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.activity-content hr {
+  border: none;
+  border-top: 1px solid #E8C8C5;
+  margin: 24px 0;
+}

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+{{ partial "head.html" . }}
+<body>
+    <!-- 배경 애니메이션 -->
+    <div class="bg-animation" id="bgAnimation"></div>
+
+    <main class="container mx-auto px-4 py-12 max-w-md">
+
+        <!-- 활동 소개 카드 -->
+        <section class="activities-card">
+            <h1 style="color: #A66A77; font-size: 26px; font-weight: bold; margin-bottom: 20px;">
+                {{ .Title }}
+            </h1>
+
+            <div class="activity-content">
+                {{ .Content }}
+            </div>
+        </section>
+
+        <!-- 메인으로 돌아가기 -->
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="{{ .Site.Home.RelPermalink }}" style="color: #A66A77;">
+                ← 메인으로 돌아가기
+            </a>
+        </div>
+
+    </main>
+
+    <script src="{{ "js/script.js" | relURL }}"></script>
+</body>
+</html>

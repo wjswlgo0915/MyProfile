@@ -15,20 +15,16 @@ socials:
 
 # Link cards
 links:
-  - href: "https://your.site"
-    icon: "fas fa-globe"
-    title: "Personal Website"
-    description: "Check out my portfolio"
+  - href: "activities/"
+    icon: "fas fa-book-open"
+    title: "My Activities"
+    description: "수업 실습과 교내 활동"
 
   - href: "https://github.com/wjswlgo0915"
     icon: "fab fa-github"
     title: "GitHub"
     description: "Explore my open-source projects"
 
-  - href: "https://course.your.site"
-    icon: "fas fa-book"
-    title: "Online Course"
-    description: "Learn web development"
 
   
   - href: "mailto:wjswlgo0915@naver.com"
@@ -36,10 +32,6 @@ links:
     title: "Contact Me"
     description: "wjswlgo0915@naver.com"
 
-  - href: "https://newsletter.your.site"
-    icon: "fas fa-newspaper"
-    title: "Newsletter"
-    description: "Subscribe for updates"
  
 
 
