@@ -284,7 +284,7 @@ p {
 
 /* 활동 페이지 디자인 */
 .activities-card {
-  background: #F9ECE8;
+  background: rgba(247, 227, 223, 0.35);
   backdrop-filter: blur(10px);
   border: 1px solid #E8C8C5;
   border-radius: 20px;
@@ -311,10 +311,11 @@ p {
   margin: 24px 0;
 }
 
-/* 링크 카드와 About Me 색상 통일 */
+
+/* 링크 카드와 About Me 투명도 통일 */
 .link-card,
 #about {
-  background: rgba(247, 227, 223, 0.65) !important;
+  background: rgba(247, 227, 223, 0.35) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid #E8C8C5;
