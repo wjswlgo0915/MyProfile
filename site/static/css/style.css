@@ -89,17 +89,29 @@ body {
 }
 
 
+
+
 @keyframes float {
   0% {
     transform: translateY(0);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.7;
+  }
+
+  90% {
     opacity: 0.7;
   }
 
   100% {
-    transform: translateY(-1000px);
+    transform: translateY(-120vh);
     opacity: 0;
   }
 }
+
+
 .info-box {
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
