@@ -85,7 +85,7 @@ body {
 
   clip-path: path("M 17.5 32 C 12 27 0 18 0 10 C 0 0 12 -2 17.5 8 C 23 -2 35 0 35 10 C 35 18 23 27 17.5 32 Z");
 
-  animation: float 15s infinite linear;
+  animation: float 19s infinite linear;
 }
 
 
