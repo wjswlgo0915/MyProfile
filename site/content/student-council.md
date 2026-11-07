@@ -24,10 +24,13 @@ draft: false
 
 ---
 
+
 <div class="activity-navigation">
   <a href="../ta-detail/" class="activity-nav-button">
     ← TA 세션 보기
   </a>
+  <a href="../activities/" class="activity-nav-button">
+    ← My Activities 목록으로 돌아가기
+  </a>
 </div>
 
-[← My Activities 목록으로 돌아가기](/MyProfile/activities/)

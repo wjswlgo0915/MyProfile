@@ -491,30 +491,41 @@ p {
   outline-offset: 3px;
 }
 
-/* 활동 상세 페이지 간 이동 버튼 */
+
+/* 활동 상세 페이지 하단 이동 버튼 */
+
 .activity-navigation {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 30px;
 }
 
-.activity-content .activity-nav-button {
-  display: inline-block;
-  padding: 12px 24px;
+
+.activity-content .activity-navigation .activity-nav-button {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 14px 24px;
   background: #E8C8C5;
   color: #493C41 !important;
   border: 1px solid #E8C8C5;
   border-radius: 12px;
   font-size: 16px;
   font-weight: 600;
+  text-align: center;
   text-decoration: none !important;
   transition: all 0.3s ease;
 }
 
-.activity-content .activity-nav-button:hover {
+.activity-content .activity-navigation .activity-nav-button:hover {
   background: #D9AAB1;
   border-color: #D9AAB1;
   transform: translateY(-2px);
 }
+
 
 
