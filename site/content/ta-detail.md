@@ -45,3 +45,8 @@ TA 세션에서 제공된 기존 `test.html` 파일을 바탕으로 자기소개
 ---
 
 [← My Activities 목록으로 돌아가기](/MyProfile/activities/)
+<div class="activity-navigation">
+  <a href="../student-council/" class="activity-nav-button">
+    학생회 활동 보기 →
+  </a>
+</div>

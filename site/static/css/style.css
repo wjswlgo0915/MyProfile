@@ -491,4 +491,30 @@ p {
   outline-offset: 3px;
 }
 
+/* 활동 상세 페이지 간 이동 버튼 */
+.activity-navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.activity-content .activity-nav-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #E8C8C5;
+  color: #493C41 !important;
+  border: 1px solid #E8C8C5;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+}
+
+.activity-content .activity-nav-button:hover {
+  background: #D9AAB1;
+  border-color: #D9AAB1;
+  transform: translateY(-2px);
+}
+
 
