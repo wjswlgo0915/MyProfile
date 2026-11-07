@@ -495,7 +495,7 @@ p {
 .activity-navigation {
   display: flex;
   justify-content: center;
-  margin-top: 36px;
+  margin-top: 20px;
 }
 
 .activity-content .activity-nav-button {
