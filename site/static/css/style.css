@@ -385,15 +385,16 @@ p {
 }
 
 
-/* 프로필 사진 작은 팝업 */
+/* 팝업은 고정된 크기 유지 */
 .profile-modal {
   position: fixed;
   inset: 0;
   margin: auto;
-  padding: 18px;
-  width: 350px;
+  box-sizing: border-box;
+  width: 390px;
   max-width: 90vw;
   max-height: 85vh;
+  padding: 18px;
   border: 1px solid #E8C8C5;
   border-radius: 20px;
   background: #FFF9F5;
@@ -407,36 +408,54 @@ p {
 
 
 
-/* 팝업 안의 사진 */
+
+/* 사진을 표시할 고정 영역 */
+.profile-zoom-area {
+  width: 100%;
+  height: min(390px, 60vh);
+  overflow: auto;
+  background: #FFFBF8;
+  border-radius: 12px;
+}
+
+/* 사진 확대 버튼 */
+.profile-zoom-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+/* 확대 전: 원본 사진 전체 표시 */
 .profile-modal-image {
   display: block;
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 100%;
   max-height: 60vh;
   object-fit: contain;
   border-radius: 12px;
-  cursor: zoom-in;
-  transition: transform 0.25s ease;
-  transform-origin: center center;
 }
 
-/* 사진 확대 상태 */
-.profile-modal-image.is-zoomed {
-  max-width: none;
-  max-height: none;
-  width: 630px;
-  height: auto;
+/* 확대 후: 팝업은 고정하고 사진만 확대 */
+.profile-zoom-button:has(.is-zoomed) {
+  width: 180%;
   cursor: zoom-out;
 }
 
-/* 사진 확대 영역 */
-.profile-zoom-area {
-  width: 100%;
-  max-height: 65vh;
-  overflow: auto;
-  text-align: center;
+.profile-modal-image.is-zoomed {
+  max-height: none;
 }
+
+/* 키보드로 확대 버튼을 선택했을 때 */
+.profile-zoom-button:focus-visible {
+  outline: 3px solid #A66A77;
+  outline-offset: -3px;
+}
+
+
+
 
 
 
