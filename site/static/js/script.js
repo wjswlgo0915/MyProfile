@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const bgAnimation = document.getElementById('bgAnimation');
     if (!bgAnimation) return;
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 13; i++) {
         const circle = document.createElement('div');
         circle.classList.add('circle');
 
