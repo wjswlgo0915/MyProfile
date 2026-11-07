@@ -13,8 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         circle.style.height = `${size}px`;
 
         // 가로 위치만 무작위로 설정
-        circle.style.left = `${Math.random() * 100}%`;
-
+        
+        circle.style.left = `${(i + 0.5) * 10}%`;
+ 
         // 모든 하트는 화면 아래에서 시작
         circle.style.top = '100%';
 
