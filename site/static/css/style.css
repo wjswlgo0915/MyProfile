@@ -344,10 +344,12 @@ p {
 }
 
 
-/* My Activities 링크 - 아이보리 버튼 */
+
+
+/* My Activities 링크 버튼 */
 .activity-content a {
   display: inline-block;
-  background: #FFFBF8;
+  background: #E8C8C5;
   color: #493C41 !important;
   border: 1px solid #E8C8C5;
   border-radius: 12px;
@@ -361,10 +363,12 @@ p {
 
 /* 마우스를 올렸을 때 */
 .activity-content a:hover {
-  background: #F5E8E3;
-  border-color: #A66A77;
+  background: #D9AAB1;
+  border-color: #D9AAB1;
   transform: translateY(-2px);
 }
+
+
 
 .activity-content a:focus-visible {
   outline: 3px solid #A66A77;
