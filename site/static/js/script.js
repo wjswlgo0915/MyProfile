@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
         circle.style.top = `${Math.random() * 100}%`;
         
         // Random animation duration
-        circle.style.animationDuration = `${Math.random() * 10 + 20}s`;
-        circle.style.animationDelay = `${Math.random() * 12}s`;
+        circle.style.animationDuration = `${Math.random() * 10 + 15}s`;
+        circle.style.animationDelay = `-${Math.random() * 15}s`;
         
         bgAnimation.appendChild(circle);
     }
