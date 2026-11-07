@@ -392,7 +392,7 @@ p {
   inset: 0;
   margin: auto;
   box-sizing: border-box;
-  width: 390px;
+  width: 420px;
   max-width: 90vw;
   max-height: 85vh;
   padding: 18px;
@@ -410,14 +410,16 @@ p {
 
 
 
-/* 사진을 표시할 고정 영역 */
+
+/* 사진 표시 영역 */
 .profile-zoom-area {
   width: 100%;
-  height: min(390px, 60vh);
+  height: min(440px, 70vh);
   overflow: auto;
   background: #FFFBF8;
   border-radius: 12px;
 }
+
 
 /* 사진 확대 버튼 */
 .profile-zoom-button {
@@ -429,15 +431,17 @@ p {
   cursor: zoom-in;
 }
 
-/* 확대 전: 원본 사진 전체 표시 */
+
+/* 팝업 안의 사진 */
 .profile-modal-image {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 60vh;
+  max-height: 70vh;
   object-fit: contain;
   border-radius: 12px;
 }
+
 
 /* 확대 후: 팝업은 고정하고 사진만 확대 */
 .profile-zoom-button:has(.is-zoomed) {
