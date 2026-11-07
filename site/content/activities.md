@@ -3,10 +3,11 @@
 title: "My Activities"
 ---
 
+
 ### 📌 활동 바로가기
 
-- [01. TA 세션 HTML/CSS 웹페이지 수정 실습](#activity-01)
-- [02. 학생회 홍보 콘텐츠 제작](#activity-02)
+- [01. TA 세션 HTML/CSS 웹페이지 수정 실습](/MyProfile/ta-detail/)
+- [02. 학생회 홍보 콘텐츠 제작](/MyProfile/student-council/)
 
 ---
 
