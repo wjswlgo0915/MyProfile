@@ -10,9 +10,14 @@
               class="profile-image-button mb-4"
               aria-label="프로필 사진 크게 보기"
               onclick="document.getElementById('profile-modal').showModal()">
-        <img src="{{ $imgURL }}"
-             alt="{{ $.Params.name }}의 프로필 이미지"
-             class="profile-pic">
+        
+<div class="profile-zoom-area" id="profile-zoom-area">
+  <img src="{{ $imgURL }}"
+       alt="{{ $.Params.name }}의 프로필 이미지 전체"
+       class="profile-modal-image"
+       onclick="this.classList.toggle('is-zoomed')">
+</div>
+
       </button>
 
       <!-- 원본 사진 확대창 -->
