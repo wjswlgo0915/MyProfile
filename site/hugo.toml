@@ -10,3 +10,6 @@ minVersion   = "0.115.0"
 
 [outputs]
   home = ["HTML"]
+
+[markup.goldmark.renderer]
+  unsafe = true
